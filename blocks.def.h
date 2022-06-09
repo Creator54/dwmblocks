@@ -1,7 +1,7 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
   /*Icon*/					    /*Command*/							            /*Update Interval*/ /*Update Signal*/
-  {"^c#3b414d^^c#7aa2f7^"   	, "fish -c 'net wlp3s0'"   			            , 		1, 			  0},
+  {"^c#3b414d^^c#7aa2f7^"   	, "fish -c 'net wlp2s0'"   			            , 		1, 			  0},
   //is slow to update
   //{"^c#3b414d^^c#7aa2f7^ "   , "printf '%s USDT\n' $(curl -s rate.sx/1btc | cut -d '.' -f1)"   			  , 		5, 			  0},
   {"^c#3b414d^^c#7aa2f7^"       , "fish -c 'audio'"   					        , 		2, 			  0},
